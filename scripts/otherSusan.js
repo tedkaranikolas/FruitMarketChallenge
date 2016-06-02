@@ -24,7 +24,7 @@ var orangePrice = randomizator(0.5, 9.99);
 var bananaPrice = randomizator(0.5, 9.99);
 var grapePrice = randomizator(0.5, 9.99);
 
-var fruitPrices = [applePrice, orangePrice, bananaPrice, grapePrice];
+//var fruitPrices = [applePrice, orangePrice, bananaPrice, grapePrice];
 // console.log (fruitPrices); //PROBLEM - can return 0
 
 //STEP 3: create Price Changer
