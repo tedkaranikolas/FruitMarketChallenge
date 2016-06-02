@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nu Fruit Stand</title>
+		<meta name="description" content="Webpage">
+		<script src="vendors/jquery-1.12.4.min.js"></script>
+		<script src="scripts/script.js"></script>
+		<link rel="stylesheet" href="vendors/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/stylesheet.css" media="screen" title="no title" charset="utf-8">
+	</head>
+
+<body>
+	<div class="container">
+		<!-- header section -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Fruit Stand
+					<small>Adam, Mai, Susan & Ted</small>
+				</h1>
+			</div>
+		</div>
+		<!-- end header section -->
+		<!-- input section where user buys fruit and we get our data -->
+		<div class="row">
+			<div class="col-md-3 portfolio-item">
+				<h3>Apples</h3>
+				<p class="price">Price: <span id=""></span></p>
+				<button id="buyAppleIn" type="button" class="btn btn-primary" onclick="appleInventory();">Buy</button>
+			</div>
+			<div class="col-md-3 portfolio-item">
+				<h3>Oranges</h3>
+				<p class="price">Price: <span id=""></span></p>
+				<button id="buyOrange" type="button" class="btn btn-primary" onclick="">Buy</button>
+			</div>
+			<div class="col-md-3 portfolio-item">
+				<h3>Bananas</h3>
+				<p class="price">Price: <span id=""></span></p>
+				<button id="buyBanana" type="button" class="btn btn-primary" onclick="">Buy</button>
+			</div>
+			<div class="col-md-3 portfolio-item">
+				<h3>Grapes</h3>
+				<p class="price">Price: <span id=""></span></p>
+				<button id="buyGrape" type="button" class="btn btn-primary" onclick="">Buy</button>
+			</div>
+		</div>
+		<!-- end input section -->
+		<!-- our output goes below here -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Inventory</h1>
+				<h4>Total Cash: <span id="budgetToSpend"></span></h4>
+				<!-- table for our results -->
+				<table class="table table-striped">
+					<!-- table head -->
+					<thead>
+						<tr>
+							<th>Fruit</th>
+							<th>Quantity</th>
+							<th>Average Cost</th>
+						</tr>
+					</thead>
+					<!-- table body -->
+					<tbody>
+						<tr>
+							<td>Apples</td>
+							<td id="appleQty"></td>
+							<td id="appleAvgCost"></td>
+						</tr>
+						<tr>
+							<td>Oranges</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Bananas</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Grapes</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- end output section -->
+	</div>
+	<!-- end container -->
+</body>
+</html>
